@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    border: 10px double aqua;
+}
+.child{
+    color: brown;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin: 1%;
+}
+.txt{
+    font-size: 150%;
+    /* order: 2; */
+    /* flex-grow: 2; */
+    flex-shrink: 3;
+    height: 100px;
+    width: 100px;
+}
